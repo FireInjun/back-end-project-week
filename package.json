@@ -1,0 +1,28 @@
+{
+  "name": "back-end-project-week",
+  "version": "1.0.0",
+  "description": "backend server and client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireInjun/back-end-project-week.git"
+  },
+  "author": "FireInjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FireInjun/back-end-project-week/issues"
+  },
+  "homepage": "https://github.com/FireInjun/back-end-project-week#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "mongoose": "^5.2.1"
+  }
+}
