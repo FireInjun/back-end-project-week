@@ -11,7 +11,8 @@ const NotesSchema = new mongoose.Schema({
     required: true
   },
   created: {
-    type: Date, default: Date.now
+    type: Date,
+    default: Date.now
   },
   author: {
     default: "Public",
